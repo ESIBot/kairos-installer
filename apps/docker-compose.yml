@@ -20,3 +20,5 @@ services:
             - transmission:rw
         ports:
             - 80:80
+    mosquitto:
+        build: mosquitto
