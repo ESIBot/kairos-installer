@@ -1,6 +1,6 @@
 # Pull base image
 FROM resin/rpi-raspbian:jessie
-MAINTAINER Pascal de Vink <pascal.de.vink@gmail.com>
+MAINTAINER Diego Fernández
 
 RUN apt-get update && apt-get install -y wget
 
@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y mosquitto
 
 RUN adduser --system --disabled-password --disabled-login mosquitto
 
-COPY config /mqtt/config
+ADD config /mqtt/config
 VOLUME ["/mqtt/config", "/mqtt/data", "/mqtt/log"]
 
-EXPOSE 1883 9001
+EXPOSE 1883
 CMD /usr/sbin/mosquitto -c /mqtt/config/mosquitto.conf

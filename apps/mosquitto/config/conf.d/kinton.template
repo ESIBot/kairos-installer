@@ -1,0 +1,7 @@
+# Kinton configuration
+connection kinton
+address mqtt.kinton.xyz
+remote_clientid ${KINTON_UUID}
+cleansession false
+try_private false
+topic # out 1 kinton/ ${KINTON_UUID}/
