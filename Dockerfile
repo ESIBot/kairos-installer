@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     lxc \
     iptables \
+    gettext \
     python3-requests
 
 # Install Docker from hypriot repos
