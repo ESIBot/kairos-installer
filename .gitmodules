@@ -1,0 +1,3 @@
+[submodule "apps/kinton"]
+	path = apps/kinton
+	url = https://github.com/KintonXYZ/kinton-hub.git
