@@ -4,6 +4,9 @@ import requests
 import json
 import sys
 import os
+import time
+
+max_retries = 5
 
 try:
     api_url = os.environ['KINTON_API_URL'] + "/api/gateways/register"
@@ -13,9 +16,24 @@ except KeyError as e:
     sys.exit(1)
 
 # Get the kinton UUID
-raw = requests.post(api_url, data={'mac': token})
-res = json.loads(raw.text)
-print (raw.text)
+for retries in range(max_retries):
+    try:
+        raw = requests.post(api_url, data={'mac': token})
+        res = json.loads(raw.text)
+
+        if 'error' in res:
+            print(res['error']['message'])
+            sys.exit(1)
+
+        break
+    except ValueError as e:
+        if retries < max_retries:
+            print("Retrying...")
+            time.sleep(10)
+        else:
+            break
+
+print("Got UUID %s" % res['uuid'])
 
 try:
     kinton_uuid = res['uuid']
