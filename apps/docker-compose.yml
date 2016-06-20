@@ -5,3 +5,5 @@ services:
         build: kinton
         ports:
           - 1884:1884
+        environment:
+          - REGISTER_TOKEN ${RESIN_UUID}
