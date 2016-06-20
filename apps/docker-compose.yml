@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-    mosquitto:
-        build: mosquitto
+    kinton:
+        build: kinton
         ports:
-          - 1883:1883
+          - 1884:1884
