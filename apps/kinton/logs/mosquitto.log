@@ -1,0 +1,46 @@
+1466446023: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466447587: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466447940: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466447983: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466448009: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466448066: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466448100: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466451669: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466451932: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466452089: mosquitto version 1.4.9 (build date Fri, 03 Jun 2016 09:02:12 +0100) starting
+1466452089: Config loaded from /kinton/config/mosquitto/mosquitto.conf.
+1466452089: Opening ipv4 listen socket on port 1884.
+1466452089: Opening ipv6 listen socket on port 1884.
+1466452089: Warning: Mosquitto should not be run as root/administrator.
+1466452089: Connecting bridge kinton (mqtt.kinton.xyz:1883)
+1466452163: New connection from 172.19.0.1 on port 1884.
+1466452163: New client connected from 172.19.0.1 as mosqpub/24173-diego-ubu (c1, k60).
+1466452163: Client mosqpub/24173-diego-ubu disconnected.
+1466452165: New connection from 172.19.0.1 on port 1884.
+1466452165: New client connected from 172.19.0.1 as mosqpub/24218-diego-ubu (c1, k60).
+1466452165: Client mosqpub/24218-diego-ubu disconnected.
+1466452174: New connection from 172.19.0.1 on port 1884.
+1466452174: New client connected from 172.19.0.1 as mosqpub/24774-diego-ubu (c1, k60).
+1466452174: Client mosqpub/24774-diego-ubu disconnected.
+1466452178: New connection from 172.19.0.1 on port 1884.
+1466452178: New client connected from 172.19.0.1 as mosqpub/24859-diego-ubu (c1, k60).
+1466452178: Client mosqpub/24859-diego-ubu disconnected.
+1466452179: New connection from 172.19.0.1 on port 1884.
+1466452179: New client connected from 172.19.0.1 as mosqpub/24879-diego-ubu (c1, k60).
+1466452179: Client mosqpub/24879-diego-ubu disconnected.
+1466452201: New connection from 172.19.0.1 on port 1884.
+1466452201: New client connected from 172.19.0.1 as mosqpub/25193-diego-ubu (c1, k60).
+1466452201: Client mosqpub/25193-diego-ubu disconnected.
+1466452204: New connection from 172.19.0.1 on port 1884.
+1466452204: New client connected from 172.19.0.1 as mosqpub/25245-diego-ubu (c1, k60).
+1466452204: Client mosqpub/25245-diego-ubu disconnected.
+1466452236: New connection from 172.19.0.1 on port 1884.
+1466452236: New client connected from 172.19.0.1 as mosqpub/25673-diego-ubu (c1, k60).
+1466452236: Client mosqpub/25673-diego-ubu disconnected.
+1466452257: New connection from 172.19.0.1 on port 1884.
+1466452257: New client connected from 172.19.0.1 as mosqpub/25998-diego-ubu (c1, k60).
+1466452257: Client mosqpub/25998-diego-ubu disconnected.
+1466452258: New connection from 172.19.0.1 on port 1884.
+1466452258: New client connected from 172.19.0.1 as mosqpub/26029-diego-ubu (c1, k60).
+1466452258: Client mosqpub/26029-diego-ubu disconnected.
+1466452259: New connection from 172.19.0.1 on port 1884.
