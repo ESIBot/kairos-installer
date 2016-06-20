@@ -16,8 +16,6 @@ if ! docker info &>/dev/null; then
 	wrapdocker echo
 fi
 
-./register.py
-
 docker-compose build
 docker rm -v $(docker ps -a -q -f status=exited 2>/dev/null) &>/dev/null || :
 docker rmi $(docker images -f "dangling=true" -q 2>/dev/null) &>/dev/null || :
